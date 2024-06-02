@@ -32,12 +32,6 @@ const Contact = () => {
     <div className="container mx-auto p-4">
       <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
 
-      <div className="mb-4">
-        <p className="text-lg">For inquiries and assistance, please contact us:</p>
-        <p className="text-lg">Email: <a href="mailto:info@letsbegininstitute.com">info@letsbegininstitute.com</a></p>
-        <p className="text-lg">Phone: <a href="tel:+1234567890">+1234567890</a></p>
-      </div>
-
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="name" className="block mb-2">Name</label>
